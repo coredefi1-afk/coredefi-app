@@ -1,24 +1,28 @@
 import React from 'react';
 import { HeroSection } from './HeroSection';
-import { ProtocolStatus } from './ProtocolStatus';
-import { EcosystemOverview } from './EcosystemOverview';
-import { TreasuryPreview } from './TreasuryPreview';
-import { ProtocolInsights } from './ProtocolInsights';
-import { Roadmap } from './Roadmap';
-import { Announcements } from './Announcements';
-import { AuraAIPanel } from './AuraAIPanel';
+import { RewardOverview } from './RewardOverview';
+import { ReferralDashboard } from './ReferralDashboard';
+import { ReferralTree } from './ReferralTree';
+import { EarningsAnalytics } from './EarningsAnalytics';
+import { Leaderboard } from './Leaderboard';
+import { RewardHistory } from './RewardHistory';
+import { ReferralToolkit } from './ReferralToolkit';
+import { EducationPanel } from './EducationPanel';
+import { FAQ } from './FAQ';
 
-export function Home() {
+export function WebReward() {
   return (
     <div className="flex flex-col gap-8 pb-20">
       <HeroSection />
-      <ProtocolStatus />
-      <EcosystemOverview />
-      <TreasuryPreview />
-      <ProtocolInsights />
-      <Roadmap />
-      <Announcements />
-      <AuraAIPanel />
+      <RewardOverview />
+      <ReferralDashboard />
+      <ReferralTree />
+      <EarningsAnalytics />
+      <Leaderboard />
+      <RewardHistory />
+      <ReferralToolkit />
+      <EducationPanel />
+      <FAQ />
     </div>
   );
 }

@@ -6,24 +6,24 @@ import { FadeIn, SlideUp } from '@/src/components/animations';
 
 const topics = [
   {
-    title: 'What is DAO Governance?',
-    content: 'DAO (Decentralized Autonomous Organization) Governance is the process by which the CoreDeFi community proposes, discusses, and votes on upgrades, fund allocations, and strategic directions for the ecosystem. It ensures that the protocol evolves in a decentralized, transparent, and community-driven manner.'
+    title: 'What is Smart Web Reward?',
+    content: 'Smart Web Reward is an intelligent ecosystem growth module. Unlike traditional referral programs, it focuses on rewarding users for expanding the CoreDeFi network through verified community participation, education, and genuine ecosystem engagement, ensuring sustainable growth rather than just superficial metric padding.'
   },
   {
-    title: 'How Voting Works',
-    content: 'Voting power is determined by the amount of vAURAXX (vote-escrowed AURAXX) you hold in your wallet. When a proposal is active, you can cast your vote (Yes, No, or Abstain). Once submitted, your vote is recorded on-chain and cannot be altered. Quorum requirements must be met for a proposal to pass.'
+    title: 'How are rewards calculated?',
+    content: 'Rewards are calculated dynamically based on a multi-tier system. You earn a baseline reward for direct referrals who complete verification. Additionally, you earn fractional rewards when your referrals invite others (up to Level 2). The Network Growth Score multiplier applies bonuses based on the active participation of your invited network.'
   },
   {
-    title: 'How DAO Rewards Are Calculated',
-    content: 'Rewards are distributed based on your active participation. You earn a base reward for casting a vote on an active proposal. This base reward is then multiplied by your Governance Reputation Score. Additionally, participating in critical protocol upgrades often yields a higher multiplier.'
+    title: 'What qualifies as a valid referral?',
+    content: 'A valid referral is a new user who registers using your unique code, connects a verified wallet, and performs at least one ecosystem action (such as staking AURAXX, executing a swap, or participating in governance) within 30 days of registration.'
   },
   {
-    title: 'Reputation System',
-    content: 'Your Governance Reputation Score increases with consistent participation, meaningful forum discussions, and a history of voting on ecosystem proposals. High reputation unlocks multiplier bonuses on your DAO rewards and grants exclusive badges within the community leaderboards.'
+    title: 'Best practices for community growth',
+    content: 'Focus on quality over quantity. Use the Referral Toolkit to educate potential users about the true value of the CoreDeFi ecosystem. Host local meetups, create educational content (threads, videos), and support your referrals as they onboard.'
   },
   {
-    title: 'Best Practices for Governance',
-    content: 'Always read the full proposal details and community discussions before voting. Avoid blind voting, as it degrades the quality of governance. Stay informed about the long-term impact of proposals on the ecosystem, and engage respectfully with other community members in the forums.'
+    title: 'Anti-spam and fairness policy',
+    content: 'To maintain the integrity of the ecosystem, we employ advanced Sybil-resistance mechanisms. Self-referrals, bot networks, and low-quality engagement farms are strictly prohibited. Accounts found violating these terms will have their Network Growth Score reset and pending rewards forfeited.'
   }
 ];
 
@@ -38,8 +38,8 @@ export function EducationPanel() {
             <BookOpen className="w-6 h-6 text-blue-400" />
           </div>
           <div>
-            <h2 className="text-2xl font-display font-bold text-white">Governance Education</h2>
-            <p className="text-gray-400">Understand the mechanics of decentralized decision-making.</p>
+            <h2 className="text-2xl font-display font-bold text-white">Ecosystem Growth Academy</h2>
+            <p className="text-gray-400">Learn how to maximize your impact and rewards.</p>
           </div>
         </div>
       </FadeIn>

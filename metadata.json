@@ -1,0 +1,6 @@
+{
+  "name": "CoreDeFi",
+  "description": "The Web3 Financial Operating System",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

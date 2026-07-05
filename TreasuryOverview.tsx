@@ -1,27 +1,27 @@
 import React from 'react';
-import { Users, UserCheck, Gift, Clock, Award, Percent, Diamond, TrendingUp } from 'lucide-react';
+import { DollarSign, ShieldCheck, TrendingUp, Coins, Droplets, PieChart, Activity, HeartPulse } from 'lucide-react';
 import { Card } from '@/src/components/ui/Card';
 import { FadeIn, SlideUp } from '@/src/components/animations';
 import { motion } from 'motion/react';
 
 const metrics = [
-  { label: 'Total Referrals', value: '142', icon: Users, color: 'text-aura-accent' },
-  { label: 'Active Referrals', value: '89', icon: UserCheck, color: 'text-blue-400' },
-  { label: 'Referral Rewards', value: '1,250', symbol: 'AURAXX', icon: Gift, color: 'text-emerald-400' },
-  { label: 'Pending Rewards', value: '45.5', symbol: 'AURAXX', icon: Clock, color: 'text-orange-400' },
-  { label: 'Referral Rank', value: 'Diamond', icon: Award, color: 'text-aura-purple' },
-  { label: 'Conversion Rate', value: '62.6', symbol: '%', icon: Percent, color: 'text-fuchsia-400' },
-  { label: 'Lifetime Earnings', value: '4,520', symbol: 'AURAXX', icon: Diamond, color: 'text-cyan-400' },
-  { label: 'Network Growth Score', value: '94/100', icon: TrendingUp, color: 'text-emerald-400' },
+  { label: 'Total Treasury Value', value: '42.5', symbol: 'M', icon: DollarSign, color: 'text-emerald-400' },
+  { label: 'Reserve Ratio', value: '145', symbol: '%', icon: ShieldCheck, color: 'text-aura-accent' },
+  { label: 'Treasury APY', value: '8.4', symbol: '%', icon: TrendingUp, color: 'text-fuchsia-400' },
+  { label: 'Backing Per AURAXX', value: '1.24', symbol: '$', icon: Coins, color: 'text-blue-400' },
+  { label: 'Liquidity Reserve', value: '12.8', symbol: 'M', icon: Droplets, color: 'text-cyan-400' },
+  { label: 'Stablecoin Allocation', value: '65', symbol: '%', icon: PieChart, color: 'text-orange-400' },
+  { label: 'Growth Rate (YoY)', value: '+24.5', symbol: '%', icon: Activity, color: 'text-emerald-400' },
+  { label: 'Health Score', value: '98', symbol: '/100', icon: HeartPulse, color: 'text-aura-purple' },
 ];
 
-export function RewardOverview() {
+export function TreasuryOverview() {
   return (
-    <section className="py-12 relative z-10" id="reward-overview">
+    <section className="py-12 relative z-10" id="treasury-overview">
       <FadeIn>
         <div className="mb-8">
-          <h2 className="text-2xl font-display font-bold text-white mb-2">Reward Overview</h2>
-          <p className="text-gray-400">Your real-time ecosystem growth metrics.</p>
+          <h2 className="text-2xl font-display font-bold text-white mb-2">Treasury Overview</h2>
+          <p className="text-gray-400">Real-time metrics on protocol reserves and financial health.</p>
         </div>
       </FadeIn>
 

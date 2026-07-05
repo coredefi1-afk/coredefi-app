@@ -6,24 +6,24 @@ import { FadeIn, SlideUp } from '@/src/components/animations';
 
 const faqs = [
   {
-    question: 'How do I create a proposal?',
-    answer: 'To create a proposal, navigate to the "Create Proposal" section. You will need to hold a minimum amount of AURAXX tokens (or equivalent voting power) to submit a draft. Fill in the details, requested budget, and timeline, then submit it for community review.'
+    question: 'How do referrals work?',
+    answer: 'Share your unique referral link or code. When someone signs up using it and becomes a verified active user, they are added to your referral network, and you both earn rewards.'
   },
   {
-    question: 'Who can vote?',
-    answer: 'Any wallet holding AURAXX tokens, staked AURAXX, or actively participating in the ecosystem (which grants reputation XP) can vote. Your voting power is determined by a snapshot taken at the moment the proposal goes live.'
+    question: 'When are rewards distributed?',
+    answer: 'Direct referral rewards are distributed immediately upon the referee completing their first qualifying action. Fractional network rewards are calculated daily and distributed at 00:00 UTC.'
   },
   {
-    question: 'How is voting power calculated?',
-    answer: 'Voting power (vAURAXX) is calculated using a quadratic formula that weighs both your token holdings and your ecosystem reputation. Staking tokens for longer periods or holding active DAO roles provides a multiplier to your base voting power.'
+    question: 'Is there a referral limit?',
+    answer: 'No, there is no hard cap on the number of people you can invite. However, to maintain a high Network Growth Score, you should ensure your invitees remain active.'
   },
   {
-    question: 'When are proposals executed?',
-    answer: 'If a proposal passes the voting threshold (typically 51% approval with a minimum quorum), it enters a timelock period (e.g., 48 hours). After the timelock, code changes are executed on-chain automatically, or treasury funds are unlocked to a multi-sig.'
+    question: 'What activities qualify?',
+    answer: 'Qualifying activities include staking AURAXX, providing liquidity, participating in governance proposals, or completing minimum volume requirements on the decentralized exchange.'
   },
   {
-    question: 'How is governance secured?',
-    answer: 'Governance is secured through on-chain smart contracts. Critical protocol upgrades require a higher quorum and longer timelock, allowing the community ample time to review. The treasury multi-sig acts as a fail-safe for fund distributions.'
+    question: 'How is abuse prevented?',
+    answer: 'We utilize advanced on-chain analysis and Sybil-resistance protocols. Wallets flagged for suspicious activity (e.g., circular funding, multiple accounts from identical fingerprints) will be excluded from the reward pool.'
   }
 ];
 
@@ -34,12 +34,12 @@ export function FAQ() {
     <section className="py-12 relative z-10" id="faq">
       <FadeIn>
         <div className="flex items-center space-x-3 mb-8">
-          <div className="p-2 bg-emerald-500/10 rounded-lg">
-            <HelpCircle className="w-6 h-6 text-emerald-400" />
+          <div className="p-2 bg-aura-purple/10 rounded-lg">
+            <HelpCircle className="w-6 h-6 text-aura-purple" />
           </div>
           <div>
-            <h2 className="text-2xl font-display font-bold text-white">Governance FAQ</h2>
-            <p className="text-gray-400">Common questions about participating in the DAO.</p>
+            <h2 className="text-2xl font-display font-bold text-white">Frequently Asked Questions</h2>
+            <p className="text-gray-400">Quick answers regarding the Smart Web Reward program.</p>
           </div>
         </div>
       </FadeIn>
